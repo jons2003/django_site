@@ -1,4 +1,4 @@
-FROM docker pull faucet/python3
+FROM faucet/python3:11.0.0
 WORKDIR /opt/site
 COPY . /opt/site
 RUN  pip install --upgrade pip
