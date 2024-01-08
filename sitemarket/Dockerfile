@@ -1,4 +1,4 @@
-FROM django:python3
+FROM django:python3-onbuild
 WORKDIR /opt/site
 COPY . /opt/site
 RUN  pip install --upgrade pip
