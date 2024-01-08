@@ -1,4 +1,4 @@
-FROM django:python3-onbuild
+FROM docker pull faucet/python3
 WORKDIR /opt/site
 COPY . /opt/site
 RUN  pip install --upgrade pip
